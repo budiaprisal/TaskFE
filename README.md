@@ -1,4 +1,4 @@
-# kulineran
+# myapp
 
 ## Project setup
 ```
