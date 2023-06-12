@@ -21,7 +21,7 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-      <router-link class="btn btn-warning" :to="'/foods/' + product.id"
+      <router-link class="btn btn-warning" :to="'/ListMovie/' + product.id"
         ><b-icon-info> </b-icon-info> More Info </router-link
       >
     </div>

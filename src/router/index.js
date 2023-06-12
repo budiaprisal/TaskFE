@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Foods from '../views/Foods.vue'
-import FoodDetail from '../views/FoodDetail.vue'
-import Keranjang from '../views/Keranjang.vue'
+import ListEpisode from "../views/ListEpisode.vue";
+import MovieDetail from "../views/MovieDetail.vue";
 
 Vue.use(VueRouter)
 
@@ -16,19 +15,14 @@ Vue.use(VueRouter)
   {
     path: '/foods',
     name: 'Foods',
-    component: Foods
+    component: ListEpisode
   },
   {
-    path: '/foods/:id',
-    name: 'FoodDetail',
-    component: FoodDetail
+    path: '/ListMovie/:id',
+    name: 'MovieDetail',
+    component: MovieDetail
   },
-  {
-    path: '/keranjang',
-    name: 'Keranjang',
-    component: Keranjang
-  },
- 
+  
   {
     path: '/about',
     name: 'About',

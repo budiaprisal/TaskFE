@@ -41,6 +41,10 @@
       <span class="fa fa-star checked"> </span>
       <span class="fa fa-star checked"> </span><br><br>
         <button class="btn btn-warning  ">WATCH NOW</button>
+
+
+
+        
       </b-carousel-slide>
 
      
